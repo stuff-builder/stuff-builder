@@ -94,11 +94,57 @@
 
 ## How I Work
 
-<img src="assets/how-i-work.svg" alt="How I work: discover, design, build, ship, measure" width="100%" />
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Helvetica, Arial, sans-serif','fontSize':'15px','primaryColor':'#111C33','primaryTextColor':'#F1F5F9','primaryBorderColor':'#38BDF8','lineColor':'#64748B','secondaryColor':'#13264A','tertiaryColor':'#0B1220','clusterBkg':'#0F1A30','clusterBorder':'#38BDF8','edgeLabelBackground':'#0B1220'}}}%%
+flowchart LR
+    A["<b>1 · Discover</b><br/>goals · users · limits"] --> B["<b>2 · Design</b><br/>architecture · risks"]
+    B --> C["<b>3 · Build</b><br/>small, tested slices"]
+    C --> D["<b>4 · Ship</b><br/>CI/CD · safe rollouts"]
+    D --> E["<b>5 · Measure</b><br/>metrics · feedback"]
+    E -. learn & iterate .-> A
+    classDef s fill:#111C33,stroke:#26344F,color:#F1F5F9
+    classDef k fill:#111C33,stroke:#38BDF8,color:#F1F5F9,stroke-width:2px
+    class A,B,C,D s
+    class E k
+```
 
-<img src="assets/how-i-decide.svg" alt="How I make decisions" width="100%" />
+### How I Make Decisions
 
-<img src="assets/architecture.svg" alt="Typical architecture" width="100%" />
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Helvetica, Arial, sans-serif','fontSize':'15px','primaryColor':'#111C33','primaryTextColor':'#F1F5F9','primaryBorderColor':'#38BDF8','lineColor':'#64748B','secondaryColor':'#13264A','tertiaryColor':'#0B1220','clusterBkg':'#0F1A30','clusterBorder':'#38BDF8','edgeLabelBackground':'#0B1220'}}}%%
+flowchart LR
+    P["<b>Business problem</b>"] --> Q1{"Existing service<br/>fits?"}
+    Q1 -- Yes --> R1["Integrate,<br/>don't rebuild"]
+    Q1 -- No --> Q2{"Sensitive or<br/>regulated data?"}
+    Q2 -- Yes --> R2["Security-first<br/>design"]
+    Q2 -- No --> R3["Simple,<br/>scalable design"]
+    R1 & R2 & R3 --> M["<b>Ship & measure</b>"]
+    classDef s fill:#111C33,stroke:#26344F,color:#F1F5F9
+    classDef q fill:#13264A,stroke:#38BDF8,color:#F1F5F9
+    classDef k fill:#111C33,stroke:#38BDF8,color:#F1F5F9,stroke-width:2px
+    class P,R1,R2,R3 s
+    class Q1,Q2 q
+    class M k
+```
+
+### Typical Architecture
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Helvetica, Arial, sans-serif','fontSize':'15px','primaryColor':'#111C33','primaryTextColor':'#F1F5F9','primaryBorderColor':'#38BDF8','lineColor':'#64748B','secondaryColor':'#13264A','tertiaryColor':'#0B1220','clusterBkg':'#0F1A30','clusterBorder':'#38BDF8','edgeLabelBackground':'#0B1220'}}}%%
+flowchart LR
+    U["<b>Users</b><br/>web · mobile"] --> FE["<b>Frontend</b><br/>Next.js · React"] --> GW["<b>API Gateway</b>"]
+    ID["<b>Identity</b><br/>OAuth2 · OIDC"] -.- GW
+    GW --> SVC["<b>Services</b><br/>.NET · Python · Node.js<br/><i>Kubernetes · Serverless</i>"]
+    SVC --> DB[("SQL / NoSQL")]
+    SVC --> CA[("Cache")]
+    SVC --> MQ["Event Bus"] --> FN["Functions"]
+    classDef s fill:#111C33,stroke:#26344F,color:#F1F5F9
+    class U,FE,GW,ID,DB,CA,MQ,FN s
+    classDef k fill:#13264A,stroke:#38BDF8,color:#F1F5F9,stroke-width:2px
+    class SVC k
+```
+
+<p align="center"><sub>Observability · CI/CD · Infrastructure as Code · Secrets Management across every layer</sub></p>
 
 ---
 
