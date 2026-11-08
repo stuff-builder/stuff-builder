@@ -1,123 +1,122 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F172A,100:1E3A8A&height=150&text=stuff-builder&fontSize=48&fontColor=FFFFFF&fontAlignY=42&desc=Senior%20Full-Stack%20Engineer%20%C2%B7%20Startup%20to%20Enterprise&descSize=16&descAlignY=70&descColor=CBD5E1" alt="stuff-builder" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:1E3A8A,100:38BDF8&height=200&section=header&text=stuff-builder&fontSize=56&fontColor=FFFFFF&fontAlignY=36&desc=Senior%20Full-Stack%20Engineer%20%C2%B7%20Startup%20to%20Enterprise&descAlignY=56&descSize=18" alt="stuff-builder" width="100%" />
 </p>
 
 <p align="center">
-  I design and build secure, scalable software for regulated industries —<br/>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=.NET+%C2%B7+Python+%C2%B7+TypeScript;Azure+%C2%B7+AWS+%C2%B7+GCP;Secure+software+for+regulated+industries;From+MVP+to+enterprise+scale" alt="intro" />
+</p>
+
+<p align="center">
+  I design and build secure, scalable software for regulated industries,<br/>
   taking products from first MVP to enterprise-grade platforms.
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/raymond-thomas-jr/"><img src="https://img.shields.io/badge/LinkedIn-0F172A?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <img src="https://img.shields.io/badge/Available_for-Contract_%26_Consulting-0F172A?style=flat-square" alt="Availability" />
+  <a href="https://www.linkedin.com/in/raymond-thomas-jr/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <img src="https://img.shields.io/badge/Open_to-Contract_%26_Consulting-0F766E?style=for-the-badge" alt="Open to work" />
 </p>
 
 ---
 
-### Focus
+## Industries
 
-| Industries | What I deliver |
-|:--|:--|
-| **Fintech** · **Insurance** · **Healthcare** · **Legal Tech** · **SaaS** | Customer platforms, internal tools, public APIs, data pipelines, legacy modernization, cloud migration |
+<p>
+  <img src="https://img.shields.io/badge/Fintech-0F766E?style=for-the-badge" alt="Fintech" /> <img src="https://img.shields.io/badge/Insurance-1D4ED8?style=for-the-badge" alt="Insurance" /> <img src="https://img.shields.io/badge/Healthcare-DC2626?style=for-the-badge" alt="Healthcare" /> <img src="https://img.shields.io/badge/Legal_Tech-7C3AED?style=for-the-badge" alt="Legal Tech" /> <img src="https://img.shields.io/badge/SaaS-0284C7?style=for-the-badge" alt="SaaS" />
+</p>
 
----
-
-### Tech Stack
-
-| | |
-|:--|:--|
-| **Languages** | <img src="https://skillicons.dev/icons?i=cs,py,ts,js,bash" height="36" /> |
-| **.NET** | <img src="https://skillicons.dev/icons?i=dotnet" height="36" /> &nbsp; `ASP.NET Core` `Web API` `EF Core` `Blazor` `SignalR` `CQRS / MediatR` |
-| **Python** | <img src="https://skillicons.dev/icons?i=django,fastapi,flask" height="36" /> &nbsp; `DRF` `Celery` `Pydantic` `SQLAlchemy` `Pandas` |
-| **JavaScript** | <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,nestjs,express,tailwind" height="36" /> &nbsp; `Redux` `React Query` `Prisma` |
-| **Cloud** | <img src="https://skillicons.dev/icons?i=azure,aws,gcp" height="36" /> &nbsp; `Azure Functions` `AWS Lambda` `Cloud Run` `API Gateway` `Service Bus` `SQS` |
-| **DevOps** | <img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,githubactions" height="36" /> &nbsp; `Helm` `Azure DevOps` `Bicep` `OpenTelemetry` `Grafana` |
-| **Data** | <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,kafka,rabbitmq,elasticsearch" height="36" /> &nbsp; `SQL Server` `Cosmos DB` `DynamoDB` `BigQuery` |
-| **Security** | `OAuth 2.0 / OIDC` `Entra ID` `Auth0` `Key Vault / Secrets Manager` `HIPAA` `PCI DSS` `SOC 2` |
-| **Testing** | `xUnit` `Pytest` `Jest` `Playwright` `Contract testing` |
+**What I deliver**
+<p>
+  <img src="https://img.shields.io/badge/Customer_platforms-1E293B?style=flat-square" alt="Customer platforms" /> <img src="https://img.shields.io/badge/Internal_tools-1E293B?style=flat-square" alt="Internal tools" /> <img src="https://img.shields.io/badge/Public_APIs-1E293B?style=flat-square" alt="Public APIs" /> <img src="https://img.shields.io/badge/Data_pipelines-1E293B?style=flat-square" alt="Data pipelines" /> <img src="https://img.shields.io/badge/Legacy_modernization-1E293B?style=flat-square" alt="Legacy modernization" /> <img src="https://img.shields.io/badge/Cloud_migration-1E293B?style=flat-square" alt="Cloud migration" />
+</p>
 
 ---
 
-### How I Work
+## Tech Stack
 
-```mermaid
-flowchart LR
-    A[Discover<br/><sub>goals · users · constraints</sub>] --> B[Design<br/><sub>architecture · data · risks</sub>]
-    B --> C[Build<br/><sub>small slices · tested</sub>]
-    C --> D[Ship<br/><sub>CI/CD · safe rollouts</sub>]
-    D --> E[Measure<br/><sub>metrics · feedback</sub>]
-    E -. iterate .-> A
+**Languages**
+<p>
+  <img src="https://skillicons.dev/icons?i=cs,py,ts,js,bash" height="40" alt="Languages" />
+</p>
 
-    classDef step fill:#0F172A,stroke:#334155,color:#F8FAFC
-    class A,B,C,D,E step
-```
+**.NET**
+<p>
+  <img src="https://skillicons.dev/icons?i=dotnet" height="40" alt=".NET" />
+  <br/>
+  <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Core" /> <img src="https://img.shields.io/badge/Web_API-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="Web API" /> <img src="https://img.shields.io/badge/EF_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="EF Core" /> <img src="https://img.shields.io/badge/Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white" alt="Blazor" /> <img src="https://img.shields.io/badge/SignalR-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="SignalR" /> <img src="https://img.shields.io/badge/CQRS_/_MediatR-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="CQRS / MediatR" />
+</p>
 
-### How I Make Decisions
+**Python**
+<p>
+  <img src="https://skillicons.dev/icons?i=django,fastapi,flask" height="40" alt="Python" />
+  <br/>
+  <img src="https://img.shields.io/badge/Django_REST_Framework-092E20?style=flat-square&logo=django&logoColor=white" alt="Django REST Framework" /> <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery" /> <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" /> <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" /> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
+</p>
 
-```mermaid
-flowchart TD
-    P([Business problem]) --> Q1{Can an existing<br/>service solve it?}
-    Q1 -- Yes --> R1[Integrate, don't rebuild]
-    Q1 -- No --> Q2{Sensitive or<br/>regulated data?}
-    Q2 -- Yes --> R2[Security & compliance<br/>designed in from day one]
-    Q2 -- No --> R3[Simplest design<br/>with room to scale]
-    R1 --> M[Ship the smallest valuable slice<br/>→ measure → improve]
-    R2 --> M
-    R3 --> M
+**JavaScript / TypeScript**
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,nestjs,express,tailwind" height="40" alt="JavaScript / TypeScript" />
+  <br/>
+  <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white" alt="Redux" /> <img src="https://img.shields.io/badge/React_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="React Query" /> <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
+</p>
 
-    classDef node fill:#0F172A,stroke:#334155,color:#F8FAFC
-    classDef decision fill:#1E3A8A,stroke:#334155,color:#F8FAFC
-    class P,R1,R2,R3,M node
-    class Q1,Q2 decision
-```
+**Cloud & Serverless**
+<p>
+  <img src="https://skillicons.dev/icons?i=azure,aws,gcp" height="40" alt="Cloud & Serverless" />
+  <br/>
+  <img src="https://img.shields.io/badge/Azure_Functions-0062AD?style=flat-square&logo=azurefunctions&logoColor=white" alt="Azure Functions" /> <img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" alt="AWS Lambda" /> <img src="https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Cloud Run" /> <img src="https://img.shields.io/badge/API_Gateway-FF4F8B?style=flat-square&logo=amazonapigateway&logoColor=white" alt="API Gateway" /> <img src="https://img.shields.io/badge/Service_Bus-0078D4?style=flat-square" alt="Service Bus" /> <img src="https://img.shields.io/badge/SQS-FF4F8B?style=flat-square&logo=amazonsqs&logoColor=white" alt="SQS" />
+</p>
 
----
+**DevOps**
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,githubactions" height="40" alt="DevOps" />
+  <br/>
+  <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" alt="Helm" /> <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square" alt="Azure DevOps" /> <img src="https://img.shields.io/badge/Bicep-0078D4?style=flat-square" alt="Bicep" /> <img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" /> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana" />
+</p>
 
-### Typical Architecture
+**Data & Messaging**
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,kafka,rabbitmq,elasticsearch" height="40" alt="Data & Messaging" />
+  <br/>
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square" alt="SQL Server" /> <img src="https://img.shields.io/badge/Cosmos_DB-0078D4?style=flat-square" alt="Cosmos DB" /> <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white" alt="DynamoDB" /> <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white" alt="BigQuery" />
+</p>
 
-```mermaid
-flowchart LR
-    U[Users] --> FE[Next.js / React]
-    FE --> GW[API Gateway]
-    ID[Identity<br/>OAuth2 / OIDC] -.- GW
-    GW --> SVC
+**Security & Compliance**
+<p>
+  <img src="https://img.shields.io/badge/OAuth_2.0_/_OIDC-F78C40?style=flat-square&logo=openid&logoColor=white" alt="OAuth 2.0 / OIDC" /> <img src="https://img.shields.io/badge/Entra_ID-0078D4?style=flat-square" alt="Entra ID" /> <img src="https://img.shields.io/badge/Auth0-EB5424?style=flat-square&logo=auth0&logoColor=white" alt="Auth0" /> <img src="https://img.shields.io/badge/Key_Vault-0078D4?style=flat-square" alt="Key Vault" /> <img src="https://img.shields.io/badge/HIPAA-0E7490?style=flat-square" alt="HIPAA" /> <img src="https://img.shields.io/badge/PCI_DSS-0E7490?style=flat-square" alt="PCI DSS" /> <img src="https://img.shields.io/badge/SOC_2-0E7490?style=flat-square" alt="SOC 2" />
+</p>
 
-    subgraph SVC[Services · Kubernetes / Serverless]
-      direction TB
-      S1[.NET]
-      S2[Python]
-      S3[Node.js]
-    end
-
-    SVC --> DB[(SQL / NoSQL)]
-    SVC --> CA[(Cache)]
-    SVC --> MQ[[Event Bus]] --> FN[Background<br/>Functions]
-    OBS[Observability · CI/CD · IaC] -.-> SVC
-
-    classDef node fill:#0F172A,stroke:#334155,color:#F8FAFC
-    class U,FE,GW,ID,S1,S2,S3,DB,CA,MQ,FN,OBS node
-    style SVC fill:#1E3A8A,stroke:#334155,color:#F8FAFC
-```
+**Testing**
+<p>
+  <img src="https://img.shields.io/badge/xUnit-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="xUnit" /> <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="Pytest" /> <img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white" alt="Jest" /> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+</p>
 
 ---
 
-### Engineering Principles
+## How I Work
 
-| Principle | In practice |
-|:--|:--|
-| **Outcomes over output** | Every feature ties back to a user or business result |
-| **Simple first, scalable next** | Clear boundaries so growth is a refactor, not a rewrite |
-| **Secure by default** | Least privilege, encryption, secrets management, audit trails |
-| **Observable systems** | Logs, metrics and traces ship with every feature |
-| **No surprises** | Written designs, honest estimates, early risk flags |
+<img src="assets/how-i-work.svg" alt="How I work: discover, design, build, ship, measure" width="100%" />
+
+<img src="assets/how-i-decide.svg" alt="How I make decisions" width="100%" />
+
+<img src="assets/architecture.svg" alt="Typical architecture" width="100%" />
 
 ---
 
-### GitHub Activity
+## Engineering Principles
+
+- **Outcomes over output:** every feature ties back to a user or business result
+- **Simple first, scalable next:** clear boundaries so growth is a refactor, not a rewrite
+- **Secure by default:** least privilege, encryption, secrets management, audit trails
+- **Observable systems:** logs, metrics and traces ship with every feature
+- **No surprises:** written designs, honest estimates, early risk flags
+
+---
+
+## GitHub Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=stuff-builder&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0F172A&title_color=F8FAFC&text_color=CBD5E1&icon_color=60A5FA" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stuff-builder&layout=compact&hide_border=true&bg_color=0F172A&title_color=F8FAFC&text_color=CBD5E1&langs_count=6" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=stuff-builder&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0B1220&title_color=38BDF8&text_color=CBD5E1&icon_color=38BDF8" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stuff-builder&layout=compact&hide_border=true&bg_color=0B1220&title_color=38BDF8&text_color=CBD5E1&langs_count=6" alt="Top languages" />
 </p>
 
 <p align="center">
@@ -130,5 +129,10 @@ flowchart LR
 ---
 
 <p align="center">
-  <sub>Have a product to launch, a platform to scale, or a system to modernize? &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/raymond-thomas-jr/">Let's talk</a></sub>
+  <b>Have a product to launch, a platform to scale, or a system to modernize?</b><br/>
+  <a href="https://www.linkedin.com/in/raymond-thomas-jr/">Let's talk on LinkedIn →</a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:1E3A8A,100:0B1220&height=110&section=footer" alt="" width="100%" />
 </p>
