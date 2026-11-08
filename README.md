@@ -174,10 +174,6 @@ flowchart LR
 
 ## GitHub Activity
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=stuff-builder&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0B1220&title_color=38BDF8&text_color=CBD5E1&icon_color=38BDF8" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stuff-builder&layout=compact&hide_border=true&bg_color=0B1220&title_color=38BDF8&text_color=CBD5E1&langs_count=6" alt="Top languages" />
-</p>
 
 <p align="center">
   <picture>
