@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=.NET+%C2%B7+Python+%C2%B7+TypeScript;Azure+%C2%B7+AWS+%C2%B7+GCP;Secure+software+for+regulated+industries;From+MVP+to+enterprise+scale" alt="intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=.NET+%C2%B7+Python+%C2%B7+PHP+%C2%B7+TypeScript+%C2%B7+C%2B%2B;Azure+%C2%B7+AWS+%C2%B7+GCP;Secure+software+for+regulated+industries;From+MVP+to+enterprise+scale" alt="intro" />
 </p>
 
 <p align="center">
@@ -35,7 +35,7 @@
 
 **Languages**
 <p>
-  <img src="https://skillicons.dev/icons?i=cs,py,ts,js,bash" height="40" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=cs,cpp,py,ts,js,php,bash" height="40" alt="Languages" />
 </p>
 
 **.NET**
@@ -50,6 +50,20 @@
   <img src="https://skillicons.dev/icons?i=django,fastapi,flask" height="40" alt="Python" />
   <br/>
   <img src="https://img.shields.io/badge/Django_REST_Framework-092E20?style=flat-square&logo=django&logoColor=white" alt="Django REST Framework" /> <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery" /> <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" /> <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" /> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
+</p>
+
+**PHP**
+<p>
+  <img src="https://skillicons.dev/icons?i=php,laravel,symfony" height="40" alt="PHP" />
+  <br/>
+  <img src="https://img.shields.io/badge/CodeIgniter-EF4223?style=flat-square&logo=codeigniter&logoColor=white" alt="CodeIgniter" /> <img src="https://img.shields.io/badge/Composer-885630?style=flat-square&logo=composer&logoColor=white" alt="Composer" /> <img src="https://img.shields.io/badge/PHPUnit-3C9CD7?style=flat-square" alt="PHPUnit" /> <img src="https://img.shields.io/badge/Livewire-FB70A9?style=flat-square&logo=livewire&logoColor=white" alt="Livewire" /> <img src="https://img.shields.io/badge/REST_%26_GraphQL_APIs-777BB4?style=flat-square&logo=php&logoColor=white" alt="REST and GraphQL APIs" />
+</p>
+
+**CMS & E-commerce**
+<p>
+  <img src="https://skillicons.dev/icons?i=wordpress" height="40" alt="CMS" />
+  <br/>
+  <img src="https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white" alt="WordPress" /> <img src="https://img.shields.io/badge/WooCommerce-96588A?style=flat-square&logo=woocommerce&logoColor=white" alt="WooCommerce" /> <img src="https://img.shields.io/badge/Drupal-0678BE?style=flat-square&logo=drupal&logoColor=white" alt="Drupal" /> <img src="https://img.shields.io/badge/Magento_/_Adobe_Commerce-EE672F?style=flat-square&logo=magento&logoColor=white" alt="Magento / Adobe Commerce" /> <img src="https://img.shields.io/badge/Umbraco-3544B1?style=flat-square&logo=umbraco&logoColor=white" alt="Umbraco" /> <img src="https://img.shields.io/badge/Strapi-4945FF?style=flat-square&logo=strapi&logoColor=white" alt="Strapi" /> <img src="https://img.shields.io/badge/Contentful-2478CC?style=flat-square&logo=contentful&logoColor=white" alt="Contentful" />
 </p>
 
 **JavaScript / TypeScript**
@@ -134,7 +148,7 @@ flowchart LR
 flowchart LR
     U["<b>Users</b><br/>web · mobile"] --> FE["<b>Frontend</b><br/>Next.js · React"] --> GW["<b>API Gateway</b>"]
     ID["<b>Identity</b><br/>OAuth2 · OIDC"] -.- GW
-    GW --> SVC["<b>Services</b><br/>.NET · Python · Node.js<br/><i>Kubernetes · Serverless</i>"]
+    GW --> SVC["<b>Services</b><br/>.NET · Python · Node.js · PHP<br/><i>Kubernetes · Serverless</i>"]
     SVC --> DB[("SQL / NoSQL")]
     SVC --> CA[("Cache")]
     SVC --> MQ["Event Bus"] --> FN["Functions"]
